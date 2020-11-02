@@ -16,8 +16,7 @@ bool VisualOdometry::Init() {
         return false;
     }
 
-    dataset_ = 
-        Dataset::Ptr(new Dataset("F:/data/kitti/dataset/sequences/00"));
+    dataset_ = Dataset::Ptr(new Dataset("F:/data/kitti/dataset/sequences/00"));
     if (dataset_->Init() != true)
         return false;
     //CHECK_EQ(dataset_->Init(), true);
