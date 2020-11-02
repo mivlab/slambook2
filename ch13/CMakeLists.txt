@@ -15,32 +15,32 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 include_directories("/usr/include/eigen3")
 
 # OpenCV
-find_package(OpenCV 3.1 REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS})
+#find_package(OpenCV 3.1 REQUIRED)
+#include_directories(${OpenCV_INCLUDE_DIRS})
 
 # pangolin
-find_package(Pangolin REQUIRED)
-include_directories(${Pangolin_INCLUDE_DIRS})
+#find_package(Pangolin REQUIRED)
+#include_directories(${Pangolin_INCLUDE_DIRS})
 
 # Sophus
 find_package(Sophus REQUIRED)
 include_directories(${Sophus_INCLUDE_DIRS})
 
 # G2O
-find_package(G2O REQUIRED)
-include_directories(${G2O_INCLUDE_DIRS})
+#find_package(G2O REQUIRED)
+#include_directories(${G2O_INCLUDE_DIRS})
 
 # glog
-find_package(Glog REQUIRED)
-include_directories(${GLOG_INCLUDE_DIRS})
+#find_package(Glog REQUIRED)
+#include_directories(${GLOG_INCLUDE_DIRS})
 
 # gtest
-find_package(GTest REQUIRED)
-include_directories(${GTEST_INCLUDE_DIRS})
+#find_package(GTest REQUIRED)
+#include_directories(${GTEST_INCLUDE_DIRS})
 
 # gflags
-find_package(GFlags REQUIRED)
-include_directories(${GFLAGS_INCLUDE_DIRS})
+#find_package(GFlags REQUIRED)
+#include_directories(${GFLAGS_INCLUDE_DIRS})
 
 # csparse
 find_package(CSparse REQUIRED)

@@ -8,12 +8,18 @@
 #include "myslam/frontend.h"
 #include "myslam/viewer.h"
 
+#ifdef DLLEXPORT
+#define DLL_API __declspec(dllexport)
+#else
+#define DLL_API __declspec(dllimport)
+#endif
+
 namespace myslam {
 
 /**
  * VO 对外接口
  */
-class VisualOdometry {
+class DLL_API VisualOdometry {
    public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
     typedef std::shared_ptr<VisualOdometry> Ptr;

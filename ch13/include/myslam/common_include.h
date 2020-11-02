@@ -111,6 +111,11 @@ typedef Sophus::SO3d SO3;
 using cv::Mat;
 
 // glog
-#include <glog/logging.h>
+//#include <glog/logging.h>
+#include <iostream>
+#define LOG(INFO) std::cout
+#define LOG(WARNING) std::cout
+#define LOG(ERROR) std::cout
+
 
 #endif  // MYSLAM_COMMON_INCLUDE_H

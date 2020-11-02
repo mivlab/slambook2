@@ -16,9 +16,11 @@ bool VisualOdometry::Init() {
         return false;
     }
 
-    dataset_ =
-        Dataset::Ptr(new Dataset(Config::Get<std::string>("dataset_dir")));
-    CHECK_EQ(dataset_->Init(), true);
+    dataset_ = 
+        Dataset::Ptr(new Dataset("F:/data/kitti/dataset/sequences/00"));
+    if (dataset_->Init() != true)
+        return false;
+    //CHECK_EQ(dataset_->Init(), true);
 
     // create components and links
     frontend_ = Frontend::Ptr(new Frontend);
