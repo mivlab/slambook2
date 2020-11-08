@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1306710a-9f7f-4e7c-b87f-2ecf05cbe78d}</ProjectGuid>
-    <RootNamespace>ch11</RootNamespace>
+    <ProjectGuid>{2079de4a-862f-4855-b9aa-f22ad996f565}</ProjectGuid>
+    <RootNamespace>loop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,12 +138,12 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>DBoW3001.lib;opencv_world343.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\3rdparty\lib;..\..\3rdparty\opencv3.4.3</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DBoW3001.lib;opencv_world343.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\feature_training.cpp" />
+    <ClCompile Include="..\loop_closure.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
