@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\3rdparty\eigen-3.3.8;..\..\3rdparty\ceres-solver\include;..\..\ch13\include;..\..\3rdparty\Sophus;..\..\3rdparty\opencv3.4.3\include;..\..\3rdparty\Pangolin-build\include;..\..\3rdparty\ceres-solver\buildvs19\config;g:\software\develop\boost\boost_1_74_0;..\..\3rdparty\g2o;..\..\3rdparty\Pangolin-build\buildvs19\src\include;..\..\3rdparty\glew-2.1.0\include;..\..\3rdparty\g2o\buildvs19;..\..\3rdparty\g2o\EXTERNAL\csparse;..\..\3rdparty\glog\src\windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\3rdparty\eigen-3.3.8;..\..\3rdparty\ceres-solver\include;..\..\ch13\include;..\..\3rdparty\Sophus;..\..\3rdparty\opencv3.4.3\include;..\..\3rdparty\Pangolin-build\include;..\..\3rdparty\ceres-solver\buildvs19\config;H:\soft\develop\boost\boost_1_74_0;..\..\3rdparty;..\..\3rdparty\g2o;..\..\3rdparty\Pangolin-build\buildvs19\src\include;..\..\3rdparty\glew-2.1.0\include;..\..\3rdparty\g2o\buildvs19;..\..\3rdparty\g2o\EXTERNAL\csparse;..\..\3rdparty\glog\src\windows</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -172,7 +172,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>opengl32.lib;glu32.lib;GLEW.lib;freeglut.lib;g2o_core.lib;g2o_stuff.lib;g2o_solver_csparse.lib;g2o_csparse_extension.lib;g2o_ext_csparse.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\3rdparty\Pangolin-build\pangolin.lib;opencv_world343.lib;libpng16_static.lib;zlibstatic.lib;jpeg.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>g:\software\develop\boost\boost_1_74_0\lib64-msvc-14.2;..\..\3rdparty\lib;..\..\3rdparty\opencv3.4.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>H:\soft\develop\boost\boost_1_74_0\lib64-msvc-14.2;..\..\3rdparty\lib;..\..\3rdparty\opencv3.4.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
