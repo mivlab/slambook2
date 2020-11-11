@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
     //google::ParseCommandLineFlags(&argc, &argv, true);
 
     myslam::VisualOdometry::Ptr vo(
-        new myslam::VisualOdometry(std::string("../../../config/default.yaml")));
+        new myslam::VisualOdometry(std::string("../../../../config/default.yaml")));
     assert(vo->Init() == true);
     vo->Run();
 
