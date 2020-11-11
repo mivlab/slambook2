@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\slam\slambook2\ch13\buildvs19\CMakeFiles\571c0061dfdc3fb0cde48bec41c918bb\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2C6BBA86-3712-3582-B767-C46475A0E36E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
